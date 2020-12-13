@@ -14,8 +14,6 @@ import ReactPlayer from "react-player";
 
 // )
 
-const Thumbnail2ndpicstyle = {marginLeft: '15px', width:256, height:400 };
-
 const Projects = ({ user }) => {
   return (
 
@@ -38,9 +36,6 @@ const Projects = ({ user }) => {
 
                   { i == 0 && <img src={user.projects[0].images[1].resolutions.thumbnail.url} style={{marginLeft: '45px', width:256, height:400 }} >
                     </img> }
-
-                  {/* { i == 0 && <url src={user.projects[0].videos[0].url} style={{marginLeft:'15px', width:256, height:400}} >
-                    </url> } */}
 
                   {i == 0 && <ReactPlayer url={user.projects[0].videos[0].url} width='550px' style={{marginTop: '45px'}}/> }
 
