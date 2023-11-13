@@ -38,7 +38,7 @@ return (
         <p>{user.basics.headline}</p>
         <p>
           Blog:{' '}
-          <a href={'https://medium.com/@aramdov444'} target="_blank" rel="noreferrer noopener">
+          <a href={'https://medium.com/@zerofilter'} target="_blank" rel="noreferrer noopener">
             {'Medium'}
           </a>
         </p>
